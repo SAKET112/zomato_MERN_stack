@@ -1,0 +1,44 @@
+.hero-section{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height : 480px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.button-section{
+    display: flex;
+    gap: 10px;
+    padding: 10px 0 0 80%;
+}
+
+.logo{
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 70px;
+    font-weight: bold;
+    color: #EB2929;
+    padding: 5px 0 5px 30px;
+    left: 47%;
+    top: 12%;
+}
+
+.header-para{
+    position: absolute;
+    text-align: center;
+    left: 27%;
+    top: 35%;
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.search-container{
+    position: absolute;
+    left: 32%;
+    top: 50%;
+}
