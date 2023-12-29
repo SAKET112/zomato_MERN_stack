@@ -1,0 +1,33 @@
+/*Quick Search Section*/
+#quickSearch{
+    /* height:800px; */
+    display: inline-block;
+    width:80%;
+    margin-left:10%;
+    margin-top:2%;
+    margin-bottom:2%;
+  }
+  
+  .quickHeading{
+      color:#003566;
+      font-size:30px;
+      font-weight:bold;
+      display: block;
+      margin-left:2%;
+  }
+  
+  .quickSubHeading{
+      color:gray;
+      font-size:20px;
+      line-height: 2;
+      margin-left:2%;
+  }
+
+  .cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  

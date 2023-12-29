@@ -1,0 +1,35 @@
+.container{
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    background-color: #001d3d;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+.logo{
+    padding: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.buttons{
+    display: flex;
+    gap: 30px;
+    padding: 50px;
+}
+
+.buttons button{
+    border: 1px solid #FFF;
+    color: #FFF;
+    padding: 3px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.buttons button:hover{
+    background-color: #FFF;
+    color: inherit;
+}
